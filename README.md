@@ -2,6 +2,33 @@
 
 > Lightweight internationalisation (i18n) utilities for React applications with built-in locale detection, memoised translations, and locale-aware formatting.
 
+**Summary:** A TypeScript-first React library delivering translation context, live locale switching, async language loading, and Intl-based formatting—all in a tiny footprint optimised for SPAs, dashboards, and SaaS products.
+
+```json
+{
+  "name": "@venkateshmedipudi/react-i18n-lite",
+  "type": "react-library",
+  "framework": "react",
+  "tags": [
+    "i18n",
+    "localization",
+    "translations",
+    "react hooks",
+    "context",
+    "typescript",
+    "intl",
+    "language switcher"
+  ],
+  "repository": "https://github.com/Venkatesh170804/react-i18n-lite"
+}
+```
+
+## 🔍 Keywords & Tags
+
+- React i18n library, React localization, translation context, language switcher
+- TypeScript React hooks, Intl formatting, locale detection, async translations
+- Lightweight i18n package, multi-language React apps, runtime locale switching
+
 ## ✨ Features
 
 - 🔤 Context-based translation provider with intuitive `useI18n()` hook
@@ -39,7 +66,7 @@ function Home() {
   return (
     <div>
       <h1>{t("welcome", { name: "Venkatesh" })}</h1>
-      <button onClick={() => setLocale("es")}>Switch to Spanish</button>
+      <button onClick={() => setLocale('es')}>Switch to Spanish</button>
     </div>
   );
 }
