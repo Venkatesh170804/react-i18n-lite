@@ -1,0 +1,57 @@
+{
+  "name": "@venkateshmedipudi/react-i18n-lite",
+  "version": "1.0.1",
+  "description": "A lightweight React i18n and localization library for effortless multi-language support.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "author": "Venkatesh Medipudi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Venkatesh170804/react-i18n-lite.git"
+  },
+  "homepage": "https://github.com/Venkatesh170804/react-i18n-lite#readme",
+  "keywords": [
+    "react",
+    "i18n",
+    "internationalization",
+    "localization",
+    "typescript",
+    "translations"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "vite build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "tsc --noEmit",
+    "prepare": "npm run build",
+    "publish:package": "npm publish --access public"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "react-dom": "^18.2.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0"
+  }
+}
